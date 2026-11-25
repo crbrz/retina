@@ -22,6 +22,7 @@ pub const NONASCII_HEX_CONFIG: HexConfig = HexConfig {
     chunk: 1,
     max_bytes: usize::MAX,
     display_offset: 0,
+    autoskip: false,
 };
 
 #[allow(dead_code)]
